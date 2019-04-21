@@ -3,6 +3,3 @@ class Post < ActiveRecord::Base
   self.title + " - " + self.description
 end
 end
-def post_summary
-  self.title + " - " + self.description
-end
